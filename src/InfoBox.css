@@ -1,0 +1,41 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f8fafc;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.detailValue {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.highlightRow {
+  padding-top: 8px;
+  border-top: 1px dashed #cbd5e1;
+  font-weight: 600;
+  color: #0f172a;
+}
